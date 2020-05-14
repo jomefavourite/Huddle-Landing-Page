@@ -1,0 +1,358 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'montserrat';
+}
+
+.space {
+  padding: 2em 4%;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #FF52BF;
+  border-radius: 30px;
+}
+
+.cta1 {
+  padding: .8em 4em;
+  margin-bottom: 4em;
+}
+
+.cta2 {
+  padding: .8em 2em;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-color: #EBFBFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header img {
+  width: 120px;
+}
+
+header .header .link a {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: .4em 2em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 0.7em #d4d4d4;
+          box-shadow: 0 0 0.7em #d4d4d4;
+  font-size: 13px;
+}
+
+header .first {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  font-size: 15px;
+}
+
+header .first h3 {
+  font-size: 2em;
+  line-height: 1.3;
+  margin: 10% auto 0 auto;
+  max-width: 354px;
+}
+
+header .first p {
+  max-width: 369px;
+  margin: auto;
+  line-height: 1.9em;
+  padding: 2em 0 2em 0;
+}
+
+header .second .img {
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  header .desktop_screen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  header .desktop_screen .first {
+    margin: 0;
+    padding: 0;
+  }
+  header .desktop_screen .first h3 {
+    text-align: left;
+    margin: 0;
+    margin-top: 10%;
+    font-size: 3em;
+    width: 70rem;
+    min-width: 354px;
+  }
+}
+
+@media (min-width: 750px) and (min-width: 1160px) {
+  header .desktop_screen .first h3 {
+    max-width: 615px;
+  }
+}
+
+@media (min-width: 750px) {
+  header .desktop_screen .first p {
+    text-align: left;
+    margin: 0;
+  }
+  header .desktop_screen .first .cta {
+    display: block;
+    width: 300px;
+  }
+  header .desktop_screen .second .img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 750px) {
+  header {
+    background-image: url("../images/bg-hero-desktop.svg");
+  }
+}
+
+main .center {
+  text-align: center;
+  max-width: 400px;
+  margin: 3em auto;
+  line-height: 1.5em;
+  padding: 3em 2em;
+}
+
+@media (min-width: 750px) {
+  main .center {
+    max-width: 800px;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
+
+main .one img {
+  width: 80%;
+}
+
+main .main {
+  width: 80%;
+  min-height: 500px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 0.7em #d4d4d4;
+          box-shadow: 0 0 0.7em #d4d4d4;
+}
+
+main .main .two h4 {
+  margin: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+}
+
+main .main .two p {
+  color: #809099;
+}
+
+@media (min-width: 750px) {
+  main .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-height: 0;
+  }
+  main .main .two {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: left;
+    margin-right: 20px;
+  }
+  main .main .two h4 {
+    margin: 25% 0 4% 0;
+  }
+  main .main .two p {
+    margin: 5% 0 25% 0;
+  }
+  main .main .one {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  main .main .one img {
+    width: 20em;
+  }
+  main .main .three {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0 20px 0 0;
+  }
+}
+
+main .click_main {
+  position: relative;
+  margin: auto;
+  padding: 100px 0;
+}
+
+main .click_main .click {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 400px;
+  margin: 5em auto 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 0.7em #d4d4d4;
+          box-shadow: 0 0 0.7em #d4d4d4;
+}
+
+main .click_main .click h3 {
+  padding: 3em 2em 0 2em;
+  margin-bottom: 2em;
+}
+
+main .click_main .click .cta2 {
+  -webkit-box-shadow: 0 0 0.7em #d4d4d4;
+          box-shadow: 0 0 0.7em #d4d4d4;
+  margin: 0 2em 3em 2em;
+}
+
+footer {
+  background-color: #00252E;
+  color: #ffff;
+}
+
+footer .logo {
+  padding-top: 10rem;
+  width: 12em;
+}
+
+@media (min-width: 750px) {
+  footer .logo {
+    width: 15em;
+    padding: 10em 2% 2% 0;
+  }
+  footer .hi {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+}
+
+@media (min-width: 750px) {
+  footer .footer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+  }
+  footer .footer .footer_second {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 20px;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+  footer .footer .footer_second .one {
+    width: 100%;
+  }
+  footer .footer .footer_second .one_item {
+    min-width: 9rem;
+  }
+  footer .footer .footer_second .two {
+    width: 100%;
+    margin-left: 20px;
+  }
+  footer .footer .footer_second .footer_second {
+    width: 50%;
+  }
+}
+
+footer span {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer .move {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 2;
+}
+
+footer .move p {
+  max-width: 400px;
+}
+
+footer .footer_second {
+  font-size: 18px;
+  line-height: 3;
+}
+
+footer .footer_third {
+  text-align: center;
+}
+
+footer .footer_third .icon {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+footer .footer_third .icon .icon-width {
+  width: 40px;
+}
+
+@media (min-width: 750px) {
+  footer .footer_third {
+    text-align: left;
+  }
+  footer .footer_third .small {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: baseline;
+        align-content: baseline;
+  }
+  footer .footer_third .small small {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    margin-top: 100px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
